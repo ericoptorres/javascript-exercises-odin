@@ -6,7 +6,6 @@ const sumAll = function(start, end) {
                 start = end
                 end = aux
             }
-            let currentNumber = start
             let sum = 0
              while (start <= end){
                 sum += start
